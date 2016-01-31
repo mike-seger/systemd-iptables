@@ -2,7 +2,7 @@
 Description=Packet Filtering Framework
 DefaultDependencies=no
 #After=systemd-sysctl.service
-After=network-online.target
+After=systemd-sysctl.service
 Before=hostapd.service
 #Before=sysinit.target
 [Service]
